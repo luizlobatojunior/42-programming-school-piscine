@@ -6,7 +6,7 @@ void ft_putchar(char c)
 void ft_print_comb2(void)
 {
 	int a, b;
-	a = 0;
+	a = 00;
 	while(a <= 98)
 	{
 		b = a + 1;
@@ -17,7 +17,7 @@ void ft_print_comb2(void)
 			ft_putchar(' ');
 			ft_putchar(b / 10 + '0');
 			ft_putchar(b % 10 + '0');
-			if (!(a == 98 && b == 99))
+			if (a != 98)
             		{
                 		ft_putchar(',');
                 		ft_putchar(' ');
